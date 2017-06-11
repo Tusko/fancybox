@@ -1556,6 +1556,7 @@
 
                             if ( textStatus === 'success' ) {
                                 self.setContent( slide, data );
+                                slide.ajaxResponse = data;
                             }
 
                         },
